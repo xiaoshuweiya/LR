@@ -66,6 +66,3 @@ if st.button("Predict"):
 
         # Display the SHAP force plot image
         st.image("shap_force_plot.png")
-
-    except Exception as e:
-        st.error(f"An error occurred: {str(e)}")
